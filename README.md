@@ -1,5 +1,13 @@
 # VSCode Neovim Clean Config
 
+
+实在懒得折腾这么多插件了，不离开键盘的移动用Neovim模式，在VSCode中，语言相关的能力就用VSCode自带就很不错了。
+
+如果想全套用Vim，推荐使用 [LunarVim](https://www.lunarvim.org/)
+
+
+
+
 ## Vim-Plug 安装
 
 `NeoVim 采用`XDG Base Directory Specification(XDG 基本目录规范)管理配置文件
