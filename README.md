@@ -1,7 +1,7 @@
 # VSCode Neovim Clean Config
 
 
-实在懒得折腾这么多插件了，不离开键盘的移动用Neovim模式，在VSCode中，语言相关的能力就用VSCode自带就很不错了。
+实在懒得折腾这么多插件了，不离开键盘的移动用Neovim模式，在VSCode中，语言相关的能力就用VSCode自带就很不错了。并且还有非常丝滑的Remote Dev能力。
 
 如果想全套用Vim，推荐使用 [LunarVim](https://www.lunarvim.org/)
 
