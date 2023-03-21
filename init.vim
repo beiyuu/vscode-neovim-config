@@ -3,13 +3,12 @@ let g:mapleader = ","
 imap jj <esc>
 
 nmap <leader>c <c-w>c
-nmap <leader>ww <c-w>w
 nmap <leader>t gt
 nmap <leader>r gT
 nmap <leader><space> :w<cr>
 
-vmap <leader>y :call VSCodeNotify('editor.action.clipboardCopyAction')<CR>
-nmap <leader>p :call VSCodeNotify('editor.action.clipboardPasteAction')<CR>
+vmap <leader>y "+y
+nmap <leader>p "+p
 
 
 nnoremap <leader>e :call VSCodeNotify('workbench.view.explorer')<CR>
