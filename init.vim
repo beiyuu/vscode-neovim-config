@@ -3,8 +3,8 @@ let g:mapleader = ","
 imap jj <esc>
 
 nmap <leader>c <c-w>c
-nmap <leader>t gt
-nmap <leader>r gT
+nmap <tab> gt
+nmap <S-Tab> gT
 nmap <leader><space> :w<cr>
 
 if system('uname -a | egrep [Mm]icrosoft') != ''
