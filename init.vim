@@ -7,9 +7,13 @@ nmap <leader>t gt
 nmap <leader>r gT
 nmap <leader><space> :w<cr>
 
-vmap <leader>y "+y
-nmap <leader>p "+p
-
+if system('uname -a | egrep [Mm]icrosoft') != ''
+  vmap <leader>y :call VSCodeNotify('editor.action.clipboardCopyAction')<CR>
+  nmap <leader>p :call VSCodeNotify('editor.action.clipboardPasteAction')<CR>
+else
+  vmap <leader>y "+y
+  nmap <leader>p "+p
+endif
 
 nnoremap <leader>e :call VSCodeNotify('workbench.view.explorer')<CR>
 
